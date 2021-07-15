@@ -1,3 +1,5 @@
+D:/Repositories/Projects/cmake_tutorial/module2/my_build_dir/CMakeFiles/my_math.dir
+D:/Repositories/Projects/cmake_tutorial/module2/my_build_dir/CMakeFiles/my_print.dir
 D:/Repositories/Projects/cmake_tutorial/module2/my_build_dir/CMakeFiles/rebuild_cache.dir
 D:/Repositories/Projects/cmake_tutorial/module2/my_build_dir/CMakeFiles/calculator.dir
 D:/Repositories/Projects/cmake_tutorial/module2/my_build_dir/CMakeFiles/edit_cache.dir

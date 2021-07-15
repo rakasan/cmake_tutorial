@@ -6,33 +6,3 @@
 
 #IncludeRegexTransform: 
 
-D:/Repositories/Projects/cmake_tutorial/module2/addition.cpp
-addition.h
-D:/Repositories/Projects/cmake_tutorial/module2/addition.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/addition.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/divission.cpp
-divission.h
-D:/Repositories/Projects/cmake_tutorial/module2/divission.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/divission.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/main.cpp
-iostream
--
-addition.h
-D:/Repositories/Projects/cmake_tutorial/module2/addition.h
-divission.h
-D:/Repositories/Projects/cmake_tutorial/module2/divission.h
-print_result.h
-D:/Repositories/Projects/cmake_tutorial/module2/print_result.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/print_result.cpp
-iostream
--
-print_result.h
-D:/Repositories/Projects/cmake_tutorial/module2/print_result.h
-
-D:/Repositories/Projects/cmake_tutorial/module2/print_result.h
-

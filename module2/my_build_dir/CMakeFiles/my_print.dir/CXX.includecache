@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Repositories/Projects/cmake_tutorial/module2/print_result.cpp
+iostream
+-
+print_result.h
+D:/Repositories/Projects/cmake_tutorial/module2/print_result.h
+
+D:/Repositories/Projects/cmake_tutorial/module2/print_result.h
+

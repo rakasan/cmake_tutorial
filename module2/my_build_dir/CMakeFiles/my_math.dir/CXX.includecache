@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Repositories/Projects/cmake_tutorial/module2/addition.cpp
+addition.h
+D:/Repositories/Projects/cmake_tutorial/module2/addition.h
+
+D:/Repositories/Projects/cmake_tutorial/module2/addition.h
+
+D:/Repositories/Projects/cmake_tutorial/module2/divission.cpp
+divission.h
+D:/Repositories/Projects/cmake_tutorial/module2/divission.h
+
+D:/Repositories/Projects/cmake_tutorial/module2/divission.h
+

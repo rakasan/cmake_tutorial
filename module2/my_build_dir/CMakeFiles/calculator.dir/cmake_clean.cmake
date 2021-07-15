@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calculator.dir/addition.cpp.obj"
-  "CMakeFiles/calculator.dir/divission.cpp.obj"
   "CMakeFiles/calculator.dir/main.cpp.obj"
-  "CMakeFiles/calculator.dir/print_result.cpp.obj"
   "calculator.exe"
   "calculator.exe.manifest"
   "calculator.pdb"

@@ -129,6 +129,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named my_math
+
+# Build rule for target.
+my_math: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_math
+.PHONY : my_math
+
+# fast build rule for target.
+my_math/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/build
+.PHONY : my_math/fast
+
+#=============================================================================
+# Target rules for targets named my_print
+
+# Build rule for target.
+my_print: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_print
+.PHONY : my_print
+
+# fast build rule for target.
+my_print/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_print.dir\build.make CMakeFiles/my_print.dir/build
+.PHONY : my_print/fast
+
+#=============================================================================
 # Target rules for targets named calculator
 
 # Build rule for target.
@@ -147,7 +173,7 @@ addition.obj: addition.cpp.obj
 
 # target to build an object file
 addition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/addition.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/addition.cpp.obj
 .PHONY : addition.cpp.obj
 
 addition.i: addition.cpp.i
@@ -156,7 +182,7 @@ addition.i: addition.cpp.i
 
 # target to preprocess a source file
 addition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/addition.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/addition.cpp.i
 .PHONY : addition.cpp.i
 
 addition.s: addition.cpp.s
@@ -165,7 +191,7 @@ addition.s: addition.cpp.s
 
 # target to generate assembly for a file
 addition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/addition.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/addition.cpp.s
 .PHONY : addition.cpp.s
 
 divission.obj: divission.cpp.obj
@@ -174,7 +200,7 @@ divission.obj: divission.cpp.obj
 
 # target to build an object file
 divission.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/divission.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/divission.cpp.obj
 .PHONY : divission.cpp.obj
 
 divission.i: divission.cpp.i
@@ -183,7 +209,7 @@ divission.i: divission.cpp.i
 
 # target to preprocess a source file
 divission.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/divission.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/divission.cpp.i
 .PHONY : divission.cpp.i
 
 divission.s: divission.cpp.s
@@ -192,7 +218,7 @@ divission.s: divission.cpp.s
 
 # target to generate assembly for a file
 divission.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/divission.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_math.dir\build.make CMakeFiles/my_math.dir/divission.cpp.s
 .PHONY : divission.cpp.s
 
 main.obj: main.cpp.obj
@@ -228,7 +254,7 @@ print_result.obj: print_result.cpp.obj
 
 # target to build an object file
 print_result.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/print_result.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_print.dir\build.make CMakeFiles/my_print.dir/print_result.cpp.obj
 .PHONY : print_result.cpp.obj
 
 print_result.i: print_result.cpp.i
@@ -237,7 +263,7 @@ print_result.i: print_result.cpp.i
 
 # target to preprocess a source file
 print_result.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/print_result.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_print.dir\build.make CMakeFiles/my_print.dir/print_result.cpp.i
 .PHONY : print_result.cpp.i
 
 print_result.s: print_result.cpp.s
@@ -246,7 +272,7 @@ print_result.s: print_result.cpp.s
 
 # target to generate assembly for a file
 print_result.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/print_result.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_print.dir\build.make CMakeFiles/my_print.dir/print_result.cpp.s
 .PHONY : print_result.cpp.s
 
 # Help Target
@@ -258,6 +284,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... calculator
+	@echo ... my_math
+	@echo ... my_print
 	@echo ... addition.obj
 	@echo ... addition.i
 	@echo ... addition.s
