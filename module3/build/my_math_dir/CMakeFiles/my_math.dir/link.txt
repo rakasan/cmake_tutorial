@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libmy_math.a CMakeFiles/my_math.dir/src/addition.cpp.obj CMakeFiles/my_math.dir/src/divission.cpp.obj
+C:\MinGW\bin\ranlib.exe libmy_math.a

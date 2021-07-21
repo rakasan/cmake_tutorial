@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../my_math_dir/include/addition.h
+
+../my_math_dir/include/divission.h
+
+D:/Repositories/Projects/cmake_tutorial/module3/my_math_dir/src/addition.cpp
+addition.h
+D:/Repositories/Projects/cmake_tutorial/module3/my_math_dir/src/addition.h
+
+D:/Repositories/Projects/cmake_tutorial/module3/my_math_dir/src/divission.cpp
+divission.h
+D:/Repositories/Projects/cmake_tutorial/module3/my_math_dir/src/divission.h
+

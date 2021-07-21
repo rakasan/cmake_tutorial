@@ -1,0 +1,9 @@
+D:/Repositories/Projects/cmake_tutorial/module3/build/CMakeFiles/rebuild_cache.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/CMakeFiles/calculator.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/CMakeFiles/edit_cache.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_math/CMakeFiles/my_math.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_math/CMakeFiles/edit_cache.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_math/CMakeFiles/rebuild_cache.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_print/CMakeFiles/my_print.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_print/CMakeFiles/edit_cache.dir
+D:/Repositories/Projects/cmake_tutorial/module3/build/my_print/CMakeFiles/rebuild_cache.dir
