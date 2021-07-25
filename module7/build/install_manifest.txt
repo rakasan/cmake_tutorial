@@ -1,0 +1,5 @@
+C:/Program Files (x86)/Calculator_Project/include/my_math/addition.h
+C:/Program Files (x86)/Calculator_Project/include/my_math/divission.h
+C:/Program Files (x86)/Calculator_Project/lib/my_math/libmy_math.a
+C:/Program Files (x86)/Calculator_Project/lib/my_math/my_math-config.cmake
+C:/Program Files (x86)/Calculator_Project/lib/my_math/my_math-config-noconfig.cmake
